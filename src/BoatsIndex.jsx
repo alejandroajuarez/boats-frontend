@@ -11,6 +11,11 @@ export function BoatsIndex({ boats }) {
           <p>Specs: {boat.specs}</p>
         </div>
       ))}
+      <div>
+        <a href="http://localhost:3000/boats.csv" download>
+        <button>Download CSV</button>
+        </a>
+      </div>
     </div>
   )
 }
